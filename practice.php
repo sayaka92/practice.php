@@ -1,22 +1,27 @@
 <?php
 echo 'hello php!';
-<?php
+echo "\n";
+
 $a = 3;
 $b = 7;
 echo $a+$b;
-<?php
-$array_month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "Novenber", "December"]
+echo "\n";
+
+$array_month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "Novenber", "December"];
 echo $array_month[7];
-<?php
-$hello = Hello;
-$name = inazawasayaka;
-$world = 's World!;
-echo $hello . "$name" . "world";
-<?php
-$tech_boost = tech;
-$tech_boost .=  boost;
+echo "\n";
+
+$hello = 'Hello';
+$name = 'inazawasayaka';
+$world = 's World!';
+echo $hello . $name . $world;
+echo "\n";
+
+$tech_boost = 'tech';
+$tech_boost .=  'boost';
 echo $tech_boost;
-<?php
+echo "\n";
+
 $calendar_2018 = [
   "January" => "1月",
   "February" => "2月",
@@ -33,4 +38,6 @@ $calendar_2018 = [
 ];
 
 // 12月を表示する
-echo $calendar_2018 [December];
+echo $calendar_2018["December"];
+echo "\n";
+?>
